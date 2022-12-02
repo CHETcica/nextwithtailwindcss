@@ -8,27 +8,27 @@ const Navbar: NextPage = () => {
       <div className="mx-auto  container-xl grid grid-rows-3 grid-flow-col border border-gray-800">
         <div className="navbar-item row-span-3 border-r border-gray-800">
           <img
-            className="mx-auto w-24 "
+            className="mx-auto pb-1"
             src="https://firebasestorage.googleapis.com/v0/b/prayut-rxltjj.appspot.com/o/Group.png?alt=media&token=19e2cb56-3fd5-4ba9-a9b2-8cafa5654366"
             alt=""
           />
         </div>
         <div className="p-4 navbar-item col-span-2 row-span-2 flex flex-row">
-          <div className="basis-3/4  text-2xl text-red py-3">MARKETPLACE_</div>
+          <div className="basis-3/4  text-2xl text-red py-3 ">MARKETPLACE_</div>
           <div className="flex-initial w-24 "></div>
           
             <img className="h-7 mt-2 mr-5" src="https://cdn.discordapp.com/attachments/662893950687772684/1048144273066967070/image.png" alt="" />
-            <button className=" login__btn-primary  h-12 w-36  rounded-xl">
+            <button className="text-xs login__btn-primary  h-12 w-36  rounded-xl">
               Back
             </button>
           
         </div>
-        <div className="navbar-item row-span-1 col-span-2 grid grid-cols-6 border-t text-center border-gray-800">
-          <div className="py-2 col-start-1 border-r border-gray-800 text-gray cursor-pointer">
+        <div className="navbar-item row-span-1 col-span-2  grid grid-cols-3 md:grid-cols-4 border-t text-center border-gray-800 ">
+          <div className=" py-2 col-start-1 border-r border-gray-800 text-sm text-gray cursor-pointer">
             NAKA MAKET
           </div>
-          <div className="py-2 border-r border-gray-800 text-gray cursor-pointer">P2P MARKET</div>
-          <div className="py-2 border-r border-gray-800 text-gray cursor-pointer">NAKAVERSE MAP</div>
+          <div className="py-2 border-r border-gray-800 text-sm text-gray cursor-pointer">P2P MARKET</div>
+          <div className="py-2 border-r border-gray-800 text-sm text-gray cursor-pointer">NAKAVERSE MAP</div>
         </div>
       </div>
     </>

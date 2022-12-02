@@ -1,25 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   color: #fff;
-  background-color: #14161E;
-  font-family: 'Broken Console','dogica_pixelbold', Helvetica, Arial, sans-serif !important;
+  background-color: #14161e;
+  font-family: 'Press Start 2P', cursive;
   max-width: 1440px;
   margin: 0 auto;
-  /* font-family: 'Broken Console'; */
+ 
 }
 
 .login__input {
-  background-color: #282D3B;
+  background-color: #282d3b;
 }
-.text-red{
-    color: #ec2f2f;
+.text-red {
+  color: #ec2f2f;
 }
-.text-gray{
-    color: #98A0B5;
+.text-gray {
+  color: #98a0b5;
 }
 .login__btn-primary {
   background: #ec2f2f;
