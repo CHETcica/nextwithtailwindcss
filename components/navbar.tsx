@@ -15,12 +15,13 @@ const Navbar: NextPage = () => {
         </div>
         <div className="p-4 navbar-item col-span-2 row-span-2 flex flex-row">
           <div className="basis-3/4  text-2xl text-red py-3">MARKETPLACE_</div>
-          <div className="flex-initial w-64 "></div>
-          <div>
-            <button className="basis-1/4 login__btn-primary   h-10 w-28 rounded-xl">
+          <div className="flex-initial w-24 "></div>
+          
+            <img className="h-7 mt-2 mr-5" src="https://cdn.discordapp.com/attachments/662893950687772684/1048144273066967070/image.png" alt="" />
+            <button className=" login__btn-primary  h-12 w-36  rounded-xl">
               Back
             </button>
-          </div>
+          
         </div>
         <div className="navbar-item row-span-1 col-span-2 grid grid-cols-6 border-t text-center border-gray-800">
           <div className="py-2 col-start-1 border-r border-gray-800 text-gray cursor-pointer">

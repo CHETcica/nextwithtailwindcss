@@ -15,14 +15,14 @@ const Login: NextPage = () => {
         <div className="mx-auto my-3">
           <input
             type="text"
-            className="login__input rounded-2xl w-96 h-10 pl-3 text-gray"
+            className="login__input rounded-2xl w-96 h-10 pl-10 text-gray"
             placeholder="Email address"
           />
         </div>
         <div className="mx-auto ">
           <input
             type="text"
-            className="login__input rounded-2xl w-96 h-10 pl-3 text-gray"
+            className="login__input rounded-2xl w-96 h-10 pl-10 text-gray"
             placeholder="Password"
           />
         </div>
