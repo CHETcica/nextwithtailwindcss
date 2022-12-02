@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+  color: #fff;
+  background-color: #14161E;
+  /* font-family: dogica_pixelbold, Helvetica, Arial, sans-serif !important; */
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Broken Console';
+}
+
+
+
+.login__input {
+  background-color: #282D3B;
+  
+}
+.text-red{
+    color: #ec2f2f;
+}
+.text-gray{
+    color: #98A0B5;
+}
+.login__btn-primary {
+  background: #ec2f2f;
+  box-shadow: 0px 0px 20px #ec2f2f, inset 0px 1px 3px rgba(255, 255, 255, 0.5);
+  border-radius: 18px;
+}
+.login__btn-secondary {
+  background: rgba(236, 47, 47, 0.0001);
+  border: 1px solid rgba(255, 255, 255, 0.35407);
+  border-radius: 18px;
+}
