@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-
+import Link from "next/link";
 const Login: NextPage = () => {
   return (
     <>
@@ -21,7 +21,7 @@ const Login: NextPage = () => {
         </div>
         <div className="mx-auto ">
           <input
-            type="text"
+            type="password"
             className="login__input rounded-2xl w-96 h-10 pl-10 text-gray text-xs"
             placeholder="Password"
           />
@@ -32,7 +32,7 @@ const Login: NextPage = () => {
           </button>
         </div>
         <div className="mx-auto  text-xs text-gray text-center opacity-60 cursor-pointer ">
-          <a>Forgot Password?</a>
+          <Link href={"login.tsx"}>Forgot Password?</Link>
         </div>
         <div className="mx-auto ">
           <button className="login__btn-secondary  h-12 w-32 rounded-lg border-solid border border-sky-500 text-xs">

@@ -11,6 +11,9 @@ body {
   margin: 0 auto;
  
 }
+.menu_bar{
+  background-color: #100F17;
+}
 
 .login__input {
   background-color: #282d3b;
